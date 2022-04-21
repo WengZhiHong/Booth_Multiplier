@@ -1,4 +1,4 @@
-all:vcs
+all:vcs verdi
 
 vcs:
 	vcs -kdb -sverilog -debug_acc -full64 -R mul.v mul_tb.v
